@@ -1,0 +1,12 @@
+Types of errors:
+1. Syntax Errors
+2. Runtime Errors/Exceptions:
+    - NameError
+    - TypeError
+    - AttributeError
+    - IndexError
+    - ValueError
+    - ZeroDivisionError
+3. Logical Errors (e.g., for loop iterating over the wrong range)
+
+Assert Statements
