@@ -42,3 +42,6 @@ for item in root.findall("grocery_item"):
         items_over_6.append(item.find("name").text)
 
 print("items with price higher than 6.00:",items_over_6)
+
+"""output:
+items with price higher than 6.00: ['Avocados (per bag)', 'Coffee (per pound)', 'Almonds (per pound)', 'Avocado Oil', 'Truffle Oil', 'Saffron (per gram)']"""
