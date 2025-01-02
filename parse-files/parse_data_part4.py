@@ -34,3 +34,11 @@ Almonds (per pound) 6.99
 Avocado Oil 14.49
 Truffle Oil 18.99
 Saffron (per gram) 15.99"""
+
+items_over_6=[]
+for item in root.findall("grocery_item"):
+    price = float(item.find("price").text)
+    if price > 6:
+        items_over_6.append(item.find("name").text)
+
+print("items with price higher than 6.00:",items_over_6)
